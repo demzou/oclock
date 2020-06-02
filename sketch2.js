@@ -42,7 +42,7 @@ function draw() {
   //Update values
   numWaves = minute() + 3;
   numLines = hour();
-  amplitude = minute()/5 + 0.5;
+  amplitude = minute()/2.5 + 0.5;
   
   //Print real time
   if (second() != prevSec) {
@@ -61,7 +61,7 @@ function draw() {
   }
 
   // Draw a semi-transparent background to leave a trail
-  fill(backgroundColor, 140);
+  fill(backgroundColor, 120);
   noStroke();
   rect(0, 0, width, height);
 
