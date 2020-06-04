@@ -61,7 +61,7 @@ function draw() {
   }
 
   // Draw a semi-transparent background to leave a trail
-  fill(backgroundColor, 120);
+  fill(backgroundColor, 115);
   noStroke();
   rect(0, 0, width, height);
 
